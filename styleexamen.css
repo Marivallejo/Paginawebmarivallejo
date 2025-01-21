@@ -1,0 +1,171 @@
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #a7ffeb);
+            color: #444;
+            overflow-x: hidden;
+            margin: 20px;
+            padding: 0px;
+            text-align: justify;
+        }
+
+        .navbar {
+            background-color: #00796b;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            color: white !important;
+        }
+
+        .header {
+            background: url('https://source.unsplash.com/1600x400/?fast-food') no-repeat center center/cover;
+            color: rgb(64, 34, 124);
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .header img {
+            max-width: 200px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .section-title {
+            color: #0f352f;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background-color: #4cf0dd;
+        }
+
+        .promo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            background: #004d40;
+        }
+
+        .promo-card {
+            background: white;
+            border: 1px solid #b2dfdb;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+        }
+
+        .promo-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .promo-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .promo-card .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .promo-card .card-body h5 {
+            font-size: 1.2rem;
+            color: #00796b;
+        }
+
+
+        .order-button {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            animation: bounce 2s infinite;
+        }
+
+        .order-button:hover {
+            background-color: #fb8c00;
+            transform: scale(1.1);
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        footer {
+            background-color: #00796b;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .footer-link {
+            color: #b2dfdb;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            color: #80cbc4;
+            text-decoration: underline;
+        }
+        img{
+            height: 100px; 
+            width: 100px;
+          
+          }
+          .content {
+            flex-grow: 1;
+            background-color: rgb(63, 215, 208);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #dabaff; /* Green */
+            border: none;
+            color: rgb(172, 58, 243);
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          .button:hover {
+            background-color: #390452;
+            color: white;
+          }
+
+        

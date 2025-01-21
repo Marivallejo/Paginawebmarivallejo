@@ -1,0 +1,31 @@
+
+body {
+  background-color: #d280ff;
+  color: #210f36;
+}
+
+.footer {
+  background-color: #752399;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.button {
+    background-color: #dabaff; /* Green */
+    border: none;
+    color: rgb(172, 58, 243);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #390452;
+    color: white;
+  }
