@@ -216,4 +216,70 @@ nav {
             color: white;
           }
 
+    /* Barra de menú */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%; /* Asegura que cubra todo el ancho */
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Alinea la barra en la parte superior */
+    left: 0; /* Alinea la barra en el lado izquierdo */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* Pie de página */
+footer {
+    background-color: #00796b;
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%; /* Asegura que cubra todo el ancho */
+    bottom: 0; /* Alinea el pie de página en la parte inferior */
+    left: 0; /* Alinea el pie de página en el lado izquierdo */
+}
         
