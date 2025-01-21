@@ -22,6 +22,55 @@
             color: white !important;
         }
 
+/* Estilos básicos para la barra de navegación */
+nav {
+    background-color: #58a47d;
+    color: white;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
         .header {
             background: url('https://source.unsplash.com/1600x400/?fast-food') no-repeat center center/cover;
             color: rgb(64, 34, 124);
