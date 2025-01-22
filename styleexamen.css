@@ -282,4 +282,17 @@ footer {
     bottom: 0; /* Alinea el pie de página en la parte inferior */
     left: 0; /* Alinea el pie de página en el lado izquierdo */
 }
+
+
+.custom-navbar {
+    background-color: #00796b !important; 
+}
+
+.custom-navbar .nav-link {
+    color: white !important; 
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ddd !important; 
+}
         
